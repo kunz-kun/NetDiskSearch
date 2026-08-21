@@ -1,0 +1,17 @@
+# Local agent and editor state
+.grok/
+.codex/
+.agents/
+
+# Python caches and isolated build environments
+__pycache__/
+*.py[cod]
+.venv/
+.python-build/
+
+# PyInstaller intermediates (keep the checked-in executable in dist/)
+build/
+
+# Interrupted downloads created by the application
+*.part
+
